@@ -79,3 +79,7 @@ table, th, td {
 th, td {
   padding: 15px;
 }
+div {
+  width: 1000px
+  background-color: #FFFFFF
+}
