@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Technounion">
+	<meta name="description" content="Group Project CSCI1210">
+	<meta name="keywords" content="TechnoUnions Project">
+	<title>TechnoUnions Project</title>
+	<!--<link rel="icon" href="Icon Placeholder">--!>
+	<!--
+		Author:				TechnoUnions
+		Date:					04/15/2020
+		Assignment:		Group Assignment
+		Purpose:			To Demonstrate the skills gained through the semester in HTML and CSS
+	-->
+	<style>
+	body{
+	font-family:Arial, Helvetica, sans-serif;
+	}
+
+	/* Navbar container */
+
+	.navbar {
+	  overflow: hidden;
+	  background-color: #333;
+	  font-family: Arial;
+	}
+
+	/* Links inside the navbar */
+	.navbar a {
+	  float: left;
+	  font-size: 16px;
+	  color: white;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	}
+
+	/* The dropdown container */
+	.dropdown {
+	  float: left;
+	  overflow: hidden;
+	}
+
+	/* Dropdown button */
+	.dropdown .dropbtn {
+	  font-size: 16px;
+	  border: none;
+	  outline: none;
+	  color: white;
+	  padding: 14px 16px;
+	  background-color: inherit;
+	  font-family: inherit; /* Important for vertical align on mobile phones */
+	  margin: 0; /* Important for vertical align on mobile phones */
+	}
+
+	/* Add a red background color to navbar links on hover */
+	.navbar a:hover, .dropdown:hover .dropbtn {
+	  background-color: red;
+	}
+
+	/* Dropdown content (hidden by default) */
+	dropdown-content {
+	  display: none;
+	  position: absolute;
+	  background-color: #f9f9f9;
+	  min-width: 160px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+	}
+
+	/* Links inside the dropdown */
+	dropdown-content a {
+	  float: none;
+	  color: black;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	  text-align: left;
+	}
+
+	/* Add a grey background color to dropdown links on hover */
+	dropdown-content a:hover {
+	  background-color: #ddd;
+	}
+
+	/* Show the dropdown menu on hover */
+	.dropdown:hover .dropdown-content {
+	  display: block;
+	}
+	</style>
+    <link rel='stylesheet'href='CSS/Stylesheets.css'>
+</head>
+<body>
+
+	<div class="navbar">
+	  <a href="home.html">Home</a>
+
+	  <div class="dropdown">
+	    <button class="dropbtn">Phones
+	      <i class="fa fa-caret-down"></i>
+	    </button>
+	    <div class="dropdown-content">
+		<a href="Apple.html">Apple</a>
+	    <a href="Samsung.html">Samsung</a>
+	    <a href="HTC.html">HTC</a>
+	    </div>
+
+	  </div>
+	  <div class="dropdown">
+	  <button class="dropbtn">Tablets</button>
+	  <div class="dropdown-content">
+	    <a href="Apple.html">Apple</a>
+	    <a href="Samsung.html">Samsung</a>
+	    </div>
+	  </div>
+	   <div class="dropdown">
+	  <button class="dropbtn">Laptops</button>
+	  <div class="dropdown-content">
+	    <a href="Lenovo.html">Lenovo</a>
+	    <a href="Samsung.html">Samsung</a>
+
+	  </div>
+	</div>
+	</div>
+	<br></br>
+	<br></br>
+	<p style="background-color: White; word-wrap: break-word;"> Baktoid Electronics is a locally owned store in Johnson City, TN. It sells many electronic devices, ranging from phones to laptops.This site is maintained by the Technounion</p>
+	<table style='width:100%'>
+  <tr>
+    <th>img</th>
+    <th>Device</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td><img src="" alt=""></td>
+    <td>Name</td>
+    <td>Price</td>
+  </tr>
+	<tr>
+    <td><img src="" alt=""></td>
+    <td>Name</td>
+    <td>Price</td>
+  </tr>
+	<tr>
+    <td><img src="" alt=""></td>
+    <td>Name</td>
+    <td>Price</td>
+  </tr>
+</table>
+
+	<script src="/js/w3c.js"></script>
+</body>
+</html>
