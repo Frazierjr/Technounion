@@ -27,7 +27,7 @@ font-family:Arial, Helvetica, sans-serif;
 }
 
 /* Dropdown button */
-.dropdown dropbtn {
+.dropdown .dropbtn {
   font-size: 16px;
   border: none;
   outline: none;
