@@ -109,6 +109,17 @@ img.logo {
 iframe{
  display: block;
  margin: 0 auto;
-}	
-	
-
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:150px;
+    top:20px;
+    height:75%;
+    width:75%;
+    position:absolute;
+}
