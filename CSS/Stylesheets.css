@@ -101,3 +101,8 @@ img {
   height: 200px;
 
 }
+img.logo {
+  padding: 25px;
+  width: 75%;
+  height: 75%;
+}
