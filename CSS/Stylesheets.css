@@ -106,3 +106,9 @@ img.logo {
   width: 75%;
   height: 75%;
 }
+iframe{
+ display: block;
+ margin: 0 auto;
+}	
+	
+
